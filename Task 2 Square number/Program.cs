@@ -14,8 +14,14 @@ if (a == b*b)
     Console.WriteLine($"Число {a} является квадратом {b}");
 }
 
-else
+else if (b == a*a)
 
 {
-    Console.WriteLine($"Число {a} не является квадратом {b}");
+    Console.WriteLine($"Число {b} является квадратом {a}");
+} 
+    
+else if
+
+{
+    Console.WriteLine("Ни одно число не является квадратом другого");
 }
