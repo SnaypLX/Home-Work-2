@@ -20,7 +20,7 @@ else if (b == a*a)
     Console.WriteLine($"Число {b} является квадратом {a}");
 } 
     
-else if
+else
 
 {
     Console.WriteLine("Ни одно число не является квадратом другого");
